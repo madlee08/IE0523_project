@@ -1,0 +1,40 @@
+Integrantes del grupo
+
+Integrante       (usuario en github)
+Mike Mai         (madlee08)
+Jorge Castrillo  (jorgemca)
+Isaac Rojas      (Betelo995)
+Emmanuel Navarro (emmanuelnavarromora)
+
+NOTA: COMPILAR CON IVERILOG v11.0 O UNA VERSIÓN MÁS
+RECIENTE, PUESTO QUE IVERILOG ARROJA UN ERROR DE
+COMPILACIÓN PARA VERSIONES ANTERIORES A v11.0.
+
+(A) Antes de realizar un commit, primero verifique
+que está en el branch Grupo6, así nada se modifica
+en el main hasta que los cambios implementados
+funcione correctamente.
+
+Luego, antes de hacer el commit, debe
+1) hacer un git pull para actualizar su repositorio
+    local,
+
+2) después de actualizar su repositorio, realiza su
+    commit para agregar su adiciones
+
+3) finalmente hace un git push para subir sus 
+    adiciones al github.
+
+
+(B) La estructura del proyecto consiste en tres
+grandes carpetas:
+
+--> out: esta carpeta contiene todos los archivos
+    generados por el makefile (archivos .vvp y .vcd).
+
+--> src: esta carpeta contiene todos los archivos
+    de código fuente (archivos.v).
+
+--> tester_tb: esta carpeta contiene el probador
+    y el banco de pruebas.
+
